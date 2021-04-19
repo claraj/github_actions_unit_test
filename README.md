@@ -1,5 +1,5 @@
 1. Go to Action tab
-2. Select Python Application and select Set up this workflow
+2. If there's already Python code in your repository, you'll see various example workflows. Select Python Application and select Set up this workflow.  If you don't see that, select any starter workflow and edit as needed. 
 3. Edit python-app.yml file as needed (see example in this repo https://github.com/claraj/github_actions_unit_test/blob/main/.github/workflows/python-app.yml)
 4. This workflow installs and runs Flake8 to check for unused variables, code errors. The action will fail if Flake8 finds any https://flake8.pycqa.org/en/latest/
 5. Commit python-app.yml file to repo
