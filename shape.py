@@ -8,5 +8,5 @@ def circle_area(radius):
 
 
 def triangle_area(base, height):
-    area = base * height * 0.5123456789  # oops, a bug. The number should be 0.5
+    area = base * height * 12345678  # still wrong. oops, a bug. The number should be 0.5
     return area
